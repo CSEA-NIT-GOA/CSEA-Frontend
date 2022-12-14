@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect,useState } from 'react'
 import { useTrail, a } from '@react-spring/web'
 
 import styles from './styles.module.css'
 
-const Trail: React.FC<{ open: boolean }> = ({ open, children }) => {
+const Trail = ({ open, children }) => {
   const items = React.Children.toArray(children)
   const trail = useTrail(items.length, {
     config: { mass: 5, tension: 2000, friction: 200 },
@@ -32,11 +32,22 @@ class MyComponent extends React.Component {
   }
 }
 
+
 export default function Animation() {
   const [open, set] = useState(true)
+  const [offset, setOffset] = useState(0);
+
+    useEffect(() => {
+        const onScroll = () => setOffset(window.pageYOffset);
+        window.removeEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
+    // console.log(offset); 
   return (
-    <div className={styles.container} onClick={() => set(state => !state)} >
-      <Trail open={open}>
+    <div className={styles.container} >
+      <Trail open={offset>=300 && offset <=890}>
         <span>Welcome</span>
         <span>To</span>
         <span>CSEA</span>
