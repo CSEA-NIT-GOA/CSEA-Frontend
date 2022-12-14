@@ -35,8 +35,9 @@ export default function Herosection() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900 ">
+                <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900">
                   {item.name}
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                 </a>
               ))}
             </div>
