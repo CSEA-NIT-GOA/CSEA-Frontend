@@ -10,7 +10,7 @@ const Trail = ({ open, children }) => {
     opacity: open ? 1 : 0,
     x: open ? 0 : 20,
     height: open ? 110 : 0,
-    from: { opacity: 0, x: 20, height: 0 },
+    from: { opacity: 0, x: 0, height: 0 },
   })
   return (
     <div>
@@ -47,11 +47,13 @@ export default function Animation() {
     // console.log(offset); 
   return (
     <div className={styles.container} >
-      <Trail open={offset>=300 && offset <=890}>
-        <span>Welcome</span>
-        <span>To</span>
-        <span>CSEA</span>
-      </Trail>
+      <div>
+        <Trail open={offset>=300 && offset <=890}>
+          <span>Welcome</span>
+          <span>To</span>
+          <span>CSEA</span>
+        </Trail>
       </div>
+    </div>
   )
 }
