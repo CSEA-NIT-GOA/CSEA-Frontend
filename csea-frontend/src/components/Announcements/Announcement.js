@@ -49,7 +49,7 @@ function Announcement(props) {
                     <div className="col-span-2 font-extrabold text-center">Announcement 1</div>
                     <div className="text-center">lorem</div>
                     <div className="text-center">ipsum</div>
-                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                    <div className="col-span-2 hidden group-hover:block group-hover:max-w-min mx-auto">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
               </tr>
@@ -59,7 +59,7 @@ function Announcement(props) {
                     <div className="col-span-2 font-extrabold text-center">Announcement 2</div>
                     <div className="text-center">lorem</div>
                     <div className="text-center">ipsum</div>
-                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                    <div className="col-span-2 hidden group-hover:block group-hover:max-w-min mx-auto">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
               </tr>
@@ -69,7 +69,7 @@ function Announcement(props) {
                     <div className="col-span-2 font-extrabold text-center">Announcement 3</div>
                     <div className="text-center">lorem</div>
                     <div className="text-center">ipsum</div>
-                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                    <div className="col-span-2 hidden group-hover:block group-hover:max-w-min mx-auto">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
               </tr>
