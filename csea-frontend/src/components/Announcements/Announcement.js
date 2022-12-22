@@ -18,6 +18,7 @@ function Announcement(props) {
   }, [props.offset, props.showArrows]);
 
   return (
+    // Upcomming events part
     <div
       // style={{ width: props.width, height: props.height, margin: props.margin }}
       className="flex justify-evenly max-[850px]:flex-col"
@@ -33,6 +34,7 @@ function Announcement(props) {
           animationConfig={config.gentle}
         />
       </div>
+      {/* Announcements part */}
       <div>
         <div className="w-auto max-w-min">
           <h1 className="text-xl font-bold pb-8 text-center max-[850px]:pt-8">Announcements</h1>

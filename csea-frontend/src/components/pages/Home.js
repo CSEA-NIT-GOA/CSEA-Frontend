@@ -52,7 +52,7 @@ function Home() {
         <Animation/>
         <Gallery/>
       </div>
-      
+      <Announcement cards ={cards} />
       <Footer/>
     </>
   )
