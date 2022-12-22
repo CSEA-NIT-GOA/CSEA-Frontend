@@ -44,6 +44,13 @@ let cards = [
   }
 ];
 
+let events = {
+  event1:
+    {
+      title: "Go around the world",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,praesentium voluptatem omnis atque culpa repellendus."
+    }
+}
 
 function Home() {
   return (
@@ -56,7 +63,7 @@ function Home() {
       <Announcement cards ={cards} />
         <div className='m-2 font-mono text-center font-extrabold text-7xl'>upcomming events</div>
         <div className='p-5 flex justify-center'>
-        <EventCards/>
+        <EventCards events={events.event1} />
         </div>
       <Footer/>
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function EventCards() {
+function EventCards(props) {
   return (
     <a href="" class="group relative block h-96">
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
@@ -26,18 +26,15 @@ function EventCards() {
         />
       </svg>
 
-      <h2 class="mt-4 text-2xl font-medium">Go around the world</h2>
+      <h2 class="mt-4 text-2xl font-medium">{props.events.title}</h2>
     </div>
 
     <div
       class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100"
     >
-      <h3 class="mt-4 text-2xl font-medium">Go around the world</h3>
+      <h3 class="mt-4 text-2xl font-medium">{props.events.title}</h3>
 
-      <p class="mt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-        praesentium voluptatem omnis atque culpa repellendus.
-      </p>
+      <p class="mt-4">{props.events.content}</p>
 
       <p class="mt-8 font-bold">Read more</p>
     </div>
