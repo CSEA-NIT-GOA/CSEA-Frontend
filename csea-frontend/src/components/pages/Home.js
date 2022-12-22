@@ -10,6 +10,7 @@ import Card from '../Announcements/Card'
 
 import { v4 as uuidv4 } from "uuid";
 import EventCards from '../event/EventCards'
+import Event from '../event/event'
 
 let cards = [
   {
@@ -53,19 +54,27 @@ let events = {
 }
 
 function Home() {
+  // (function(){
+  //   ('a[href*=#]').on('click', function(e) {
+  //       e.preventDefault();
+  //       ('html, body').animate({ scrollTop: ((this).attr('href')).offset().top}, 500, 'linear');
+  //     });
+  //   });
+
   return (
     <>
-      <Herosection/>
+      <Herosection />
+      <Event/> 
       <div className='p-4 my-2 flex-auto justify-items-center'>
-        <Animation/>
-        <Gallery/>
+        <Animation />
+        <Gallery />
       </div>
-      <Announcement cards ={cards} />
-        <div className='m-2 font-mono text-center font-extrabold text-7xl'>upcomming events</div>
-        <div className='p-5 flex justify-center'>
-        <EventCards events={events.event1} />
-        </div>
-      <Footer/>
+      <Announcement cards={cards} />
+      <div className='m-2 font-mono text-center font-extrabold text-7xl'>upcomming events</div>
+      <div className='p-5 flex justify-center'>
+        <EventCards  events={events.event1} />
+      </div>
+      <Footer />
     </>
   )
 }
