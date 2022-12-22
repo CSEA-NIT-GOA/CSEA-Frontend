@@ -18,14 +18,12 @@ function Announcement(props) {
   }, [props.offset, props.showArrows]);
 
   return (
-    // Upcomming events part
     <div
       // style={{ width: props.width, height: props.height, margin: props.margin }}
       className="flex justify-evenly max-[850px]:flex-col"
     >
-      <div className="h-[500px] w-1/4 mx-32 mb-20 max-[850px]:mx-auto">
-
-        <h1 className="text-xl font-bold pb-8 text-center ">Upcomming Events</h1>
+      <div className="h-[540px] w-1/4 mx-32 mb-20 max-[850px]:mx-auto">
+        <h1 className=" text-5xl font-bold pb-8 text-center font-sans ">Our Team</h1>
         <Carousel
           slides={cards}
           goToSlide={goToSlide}
@@ -34,11 +32,10 @@ function Announcement(props) {
           animationConfig={config.gentle}
         />
       </div>
-      {/* Announcements part */}
       <div>
-        <div className="w-auto max-w-min">
-          <h1 className="text-xl font-bold pb-8 text-center max-[850px]:pt-8">Announcements</h1>
-          <table class="table-fixed max-[850px]:mx-auto mx-auto">
+        <div className="w-auto">
+          <h1 className="text-xl font-bold pb-4 text-center max-[850px]:pt-10">Announcements</h1>
+          <table class="table-fixed max-[850px]:mx-auto">
             <thead>
               <tr>
                 <th></th>
@@ -48,30 +45,30 @@ function Announcement(props) {
             <tbody>
               <tr>
                 <td>
-                  <div className="grid grid-rows-2 grid-cols-2 group">
-                    <div className="col-span-2">Announcement 1</div>
-                    <div>lorem</div>
-                    <div>ipsum</div>
+                  <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
+                    <div className="col-span-2 font-extrabold text-center">Announcement 1</div>
+                    <div className="text-center">lorem</div>
+                    <div className="text-center">ipsum</div>
                     <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
               </tr>
               <tr>
               <td>
-                  <div className="grid grid-rows-2 grid-cols-2 group">
-                    <div className="col-span-2">Announcement 2</div>
-                    <div>lorem</div>
-                    <div>ipsum</div>
+                  <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
+                    <div className="col-span-2 font-extrabold text-center">Announcement 2</div>
+                    <div className="text-center">lorem</div>
+                    <div className="text-center">ipsum</div>
                     <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
               </tr>
               <tr>
               <td>
-                  <div className="grid grid-rows-2 grid-cols-2 group">
-                    <div className="col-span-2">Announcement 3</div>
-                    <div>lorem</div>
-                    <div>ipsum</div>
+                  <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
+                    <div className="col-span-2 font-extrabold text-center">Announcement 3</div>
+                    <div className="text-center">lorem</div>
+                    <div className="text-center">ipsum</div>
                     <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
                   </div>
                 </td>
