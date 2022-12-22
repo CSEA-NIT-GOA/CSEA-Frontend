@@ -9,6 +9,7 @@ import Announcement from '../Announcements/Announcement'
 import Card from '../Announcements/Card'
 
 import { v4 as uuidv4 } from "uuid";
+import EventCards from '../event/EventCards'
 
 let cards = [
   {
@@ -53,6 +54,10 @@ function Home() {
         <Gallery/>
       </div>
       <Announcement cards ={cards} />
+        <div className='m-2 font-mono text-center font-extrabold text-7xl'>upcomming events</div>
+        <div className='p-5 flex justify-center'>
+        <EventCards/>
+        </div>
       <Footer/>
     </>
   )
