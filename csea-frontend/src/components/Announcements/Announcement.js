@@ -18,6 +18,7 @@ function Announcement(props) {
   }, [props.offset, props.showArrows]);
 
   return (
+    // Upcomming events part
     <div
       // style={{ width: props.width, height: props.height, margin: props.margin }}
       className="flex justify-evenly max-[850px]:flex-col"
@@ -33,10 +34,11 @@ function Announcement(props) {
           animationConfig={config.gentle}
         />
       </div>
+      {/* Announcements part */}
       <div>
-        <div className="w-auto">
+        <div className="w-auto max-w-min">
           <h1 className="text-xl font-bold pb-8 text-center max-[850px]:pt-8">Announcements</h1>
-          <table class="table-fixed max-[850px]:mx-auto">
+          <table class="table-fixed max-[850px]:mx-auto mx-auto">
             <thead>
               <tr>
                 <th></th>
@@ -45,16 +47,34 @@ function Announcement(props) {
             </thead>
             <tbody>
               <tr>
-                <td>Announcement 1</td>
-                <td>lorem ipsum</td>
+                <td>
+                  <div className="grid grid-rows-2 grid-cols-2 group">
+                    <div className="col-span-2">Announcement 1</div>
+                    <div>lorem</div>
+                    <div>ipsum</div>
+                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                  </div>
+                </td>
               </tr>
               <tr>
-                <td>Announcement 2</td>
-                <td>lorem ipsum</td>
+              <td>
+                  <div className="grid grid-rows-2 grid-cols-2 group">
+                    <div className="col-span-2">Announcement 2</div>
+                    <div>lorem</div>
+                    <div>ipsum</div>
+                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                  </div>
+                </td>
               </tr>
               <tr>
-                <td>Announcement 3</td>
-                <td>lorem ipsum</td>
+              <td>
+                  <div className="grid grid-rows-2 grid-cols-2 group">
+                    <div className="col-span-2">Announcement 3</div>
+                    <div>lorem</div>
+                    <div>ipsum</div>
+                    <div className="col-span-2 hidden group-hover:block">Ut Lorem qui duis minim cillum ut sit reprehenderit voluptate culpa minim amet. Eiusmod occaecat cupidatat anim ullamco</div>
+                  </div>
+                </td>
               </tr>
             </tbody>
           </table>
