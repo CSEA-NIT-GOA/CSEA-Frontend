@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import Event from './event/event'
 const navigation = [
   { name: 'INFO', href: '#' },
   { name: 'FEATURES', href: '#' },
@@ -105,17 +105,6 @@ export default function Herosection() {
         <div className="relative px-6 lg:px-8 bg-gradient-to-r from-cyan-800 via-sky-600 to-cyan-500">
           <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div>
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  <span className="text-gray-300">
-                    Announcing our next round of development.{' '}
-                    <a href="#" className="font-semibold text-yellow-400">
-                      <span className="absolute inset-0" aria-hidden="true" />
-                      Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </span>
-                </div>
-              </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
                    CSEA 
@@ -124,29 +113,10 @@ export default function Herosection() {
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
                   amet fugiat veniam occaecat fugiat aliqua.
                 </p>
-                <div className="mt-8 flex gap-x-4 sm:justify-center">
-                  <a
-                    href="#"
-                    className="inline-block rounded-lg bg-gradient-to-br from-amber-300 to-amber-100 px-4 py-1.5 text-base font-semibold leading-7 text-black shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-                  >
-                    Get started  
-                    <span className="text-indigo-800 p-1" aria-hidden="true">
-                      &rarr;
-                    </span>
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                  >
-                    Watch Video
-                    <span className="text-gray-500 p-1" aria-hidden="true">
-                      &rarr;
-                    </span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
+          <Event className="relative"/>
         </div>
       </main>
     </div>

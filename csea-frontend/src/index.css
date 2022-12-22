@@ -60,11 +60,11 @@ section::after {
   content: '';
   width: 100%;
   height: 80%;
-  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  /* background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%); */
 }
 section h1 {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   z-index: 2;
@@ -78,15 +78,15 @@ section h1 {
 
 
 
-#section06 { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;}
+/* #section06 { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;} */
 #section07 { background: url(https://picsum.photos/1200/800?image=675) center center / cover no-repeat;}
 
 
 .demo a {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   left: 50%;
-  z-index: 2;
+  /* z-index: 2; */
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -101,7 +101,7 @@ section h1 {
 }
 
 #section06 a {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 #section06 a span {
   position: absolute;
