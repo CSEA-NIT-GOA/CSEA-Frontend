@@ -46,22 +46,15 @@ let cards = [
 
 function Home() {
   return (
-    <div>
+    <>
       <Herosection/>
       <div className='p-4 my-2 flex-auto justify-items-center'>
         <Animation/>
         <Gallery/>
       </div>
-      <Announcement
-        cards={cards}
-        // height="500px"
-        // width="30%"
-        // margin="2rem 9rem 5rem"
-        offset={2}
-        showArrows={false}
-      /> 
+      
       <Footer/>
-    </div>
+    </>
   )
 }
 
