@@ -117,7 +117,7 @@ function Home() {
         <Gallery />
       </div>
       <Teams cards={cards} />
-      <div className='p-5 flex justify-evenly'>
+      <div className='p-5 flex justify-evenly max-[850px]:flex-col'>
         <div>
           <div className='m-2 font-mono text-center font-extrabold text-7xl'>upcomming events</div>
           <EventCards  events={events.event1} />
