@@ -21,7 +21,7 @@ function Teams(props) {
     <div className="justify-center text-center">
       <div
         // style={{ width: props.width, height: props.height, margin: props.margin }}
-        className="flex justify-evenly max-[850px]:flex-col"
+        className="flex justify-evenly max-[850px]:flex-col px-8"
       >
         <div className="h-[540px] w-3/4 mx-32 mb-20 max-[850px]:mx-auto">
           <h1 className=" text-5xl font-bold pb-8 text-center font-sans ">Our Team</h1>
