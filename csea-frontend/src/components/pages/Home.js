@@ -111,7 +111,6 @@ function Home() {
 
   return (
     <>
-      <Herosection />
       {/* <Event/>  */}
       <div className='p-4 my-2 flex-auto justify-items-center'>
         <Animation />

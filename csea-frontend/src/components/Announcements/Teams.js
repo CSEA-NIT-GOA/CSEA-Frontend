@@ -1,6 +1,8 @@
 import Carousel from "react-spring-3d-carousel";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
+import { Link } from "react-router-dom";
+import FullTeam from "./FullTeam";
 
 function Teams(props) {
   const table = props.cards.map((element, index) => {
@@ -34,9 +36,12 @@ function Teams(props) {
           />
         </div>
       </div>
+      <Link to = '/Team'>
       <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-5 px-10 border border-blue-500 hover:border-transparent rounded text-[1.5rem] my-8">
         OUR Full Committee
       </button>
+      </Link>
+      <FullTeam/>
     </div>
   );
 }
