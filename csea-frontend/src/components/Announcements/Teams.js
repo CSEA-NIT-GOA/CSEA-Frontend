@@ -41,7 +41,7 @@ function Teams(props) {
         OUR Full Committee
       </button>
       </Link>
-      <FullTeam/>
+      {/* <FullTeam/> */}
     </div>
   );
 }
