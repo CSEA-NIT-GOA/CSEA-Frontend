@@ -118,9 +118,13 @@ function Home() {
   return (
     <>
       {/* <Event/>  */}
-      <div className="p-4 my-4 flex-auto justify-items-center">
+      {/* <div className="p-4 my-4 flex-auto justify-items-center"> */}
+      <div className="p-16 my-12 ">
         <Animation />
+        <div className=" p-16 my-12">
         <Gallery />
+        </div>
+       
       </div>
       <Teams cards={cards} />
       <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col">
@@ -134,11 +138,14 @@ function Home() {
         </div> */}
         {/* <Announcements /> */}
       </div>
-      <div className="m-2 font-mono text-center font-extrabold text-7xl">
+      <div className="m-2 my-10 font-mono text-center font-extrabold text-7xl">
         Our Newsletter
       </div>
+      <div className="my-10">
       <LetterCard />
-      <LetterCard />
+      {/* </div> */}
+          <LetterCard /> 
+      </div>
       <Footer />
     </>
   );
