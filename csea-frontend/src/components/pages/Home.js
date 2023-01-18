@@ -124,14 +124,14 @@ function Home() {
       </div>
       <Teams cards={cards} />
       <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col">
-        <div>
+        {/* <div>
           <div className="m-2 font-mono text-center font-extrabold text-7xl">
             upcomming events
           </div>
           <EventCards events={events.event1} />
           <br></br>
           <EventCards events={events.event1} />
-        </div>
+        </div> */}
         {/* <Announcements /> */}
       </div>
       <div className="m-2 font-mono text-center font-extrabold text-7xl">

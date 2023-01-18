@@ -17,12 +17,14 @@ export default function Herosection() {
       <div className="p-5 pt-5 lg:px-8">
         <div>
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
+            {/* Logo code */}
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
               </a>
             </div>
+
             <div className="flex lg:hidden">
               <button
                 type="button"
@@ -33,7 +35,8 @@ export default function Herosection() {
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+            
+            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-16">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900">
                   {item.name}
@@ -41,14 +44,14 @@ export default function Herosection() {
                 </a>
               ))}
             </div>
-            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
+            {/* <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
               <a
                 href="#"
                 className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
               >
                 Log in
               </a>
-            </div>
+            </div> */}
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
@@ -87,14 +90,14 @@ export default function Herosection() {
                       </a>
                     ))}
                   </div>
-                  <div className="py-6">
+                  {/* <div className="py-6">
                     <a
                       href="#"
                       className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
                     >
                       Log in
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Dialog.Panel>
@@ -103,20 +106,20 @@ export default function Herosection() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8 bg-gradient-to-r from-cyan-800 via-sky-600 to-cyan-500">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div className="mx-auto max-w-3xl pt-48 pb-30 sm:pt-32 sm:pb-40">
             <div>
-              <div>
-                <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+              <div >
+                <h1 className="my-10 text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
                    CSEA 
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-300 sm:text-center">
+                <p className="my-12 mt-6 text-lg leading-8 text-gray-300 sm:text-center">
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
                   amet fugiat veniam occaecat fugiat aliqua.
                 </p>
               </div>
             </div>
           </div>
-          <Event className="relative"/>
+          {/* <Event className="relative"/> */}
         </div>
       </main>
     </div>
