@@ -47,7 +47,7 @@ export default function Animation() {
     // console.log(offset); 
   return (
     <div className={styles.container} >
-      <div className='my-4'>
+      <div className=''>
         <Trail open={offset>=300 && offset <=890}>
           <span>Welcome</span>
           <span>To</span>
