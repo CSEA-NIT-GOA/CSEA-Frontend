@@ -74,29 +74,6 @@ let cards = [
       />
     ),
   },
-  // ,
-  // {
-  //   key: uuidv4(),
-  //   content: (
-  //     <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png"
-  //       title="Card6"
-  //       content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  //               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-  //               volutpat."
-  //     />
-  //   )
-  // },
-  // {
-  //   key: uuidv4(),
-  //   content: (
-  //     <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg"
-  //       title="Card7"
-  //       content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  //               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-  //               volutpat."
-  //     />
-  //   )
-  // }
 ];
 
 let events = {
@@ -108,12 +85,6 @@ let events = {
 };
 
 function Home() {
-  // (function(){
-  //   ('a[href*=#]').on('click', function(e) {
-  //       e.preventDefault();
-  //       ('html, body').animate({ scrollTop: ((this).attr('href')).offset().top}, 500, 'linear');
-  //     });
-  //   });
 
   return (
     <>
@@ -128,15 +99,15 @@ function Home() {
       </div>
       <Teams cards={cards} />
       <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col">
-        {/* <div>
+        <div>
           <div className="m-2 font-mono text-center font-extrabold text-7xl">
             upcomming events
           </div>
           <EventCards events={events.event1} />
           <br></br>
           <EventCards events={events.event1} />
-        </div> */}
-        {/* <Announcements /> */}
+        </div>
+        <Announcements />
       </div>
       <div className="m-2 my-10 font-mono text-center font-extrabold text-7xl">
         Our Newsletter
