@@ -45,13 +45,14 @@ export default function Animation() {
     }, []);
 
     // console.log(offset); 
+    const textStyle = 'max-sm:text-7xl';
   return (
     <div className={styles.container} >
       <div className='my-4'>
         <Trail open={offset>=300 && offset <=890}>
-          <span>Welcome</span>
-          <span>To</span>
-          <span>CSEA</span>
+          <span className={textStyle}>Welcome</span>
+          <span className={textStyle}>To</span>
+          <span className={textStyle}>CSEA</span>
         </Trail>
       </div>
     </div>
