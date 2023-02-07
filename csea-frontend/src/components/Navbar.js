@@ -8,6 +8,7 @@ const navigation = [
   { name: 'FEATURES', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'NEWS', href: '#news' },
+  { name: 'CONTACTUS', href:'#contact'}
 ]
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -35,7 +36,7 @@ function Navbar() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-16">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900">
+                <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900" >
                   {item.name}
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600 "></span>
                 </a>
@@ -82,6 +83,7 @@ function Navbar() {
                         key={item.name}
                         href={item.href}
                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                        onClick={()=> setMobileMenuOpen(false)}
                       >
                         {item.name}
                       </a>
