@@ -105,7 +105,7 @@ export default function Herosection() {
         </div>
       </div>
       <main>
-        <div className="relative px-6 lg:px-8 bg-gradient-to-r from-cyan-800 via-sky-600 to-cyan-500">
+        <div className="relative px-6 lg:px-8 bg-gradient-to-r from-cyan-800 via-emerald-500 to-cyan-600">
           <div className="mx-auto max-w-3xl pt-48 pb-30 sm:pt-32 sm:pb-40">
             <div>
               <div >
