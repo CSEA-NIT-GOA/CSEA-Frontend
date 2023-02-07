@@ -33,10 +33,7 @@ function Navbar() {
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-            <div className='w-[35%] max-md:hidden'>
-
-            </div>
-            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-16">
+            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-16">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900">
                   {item.name}
