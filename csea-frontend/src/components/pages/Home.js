@@ -89,7 +89,9 @@ function Home() {
 
   return (
     <>
-      <div className="p-12 my-12 ">
+      {/* <Event/>  */}
+      {/* <div className="p-4 my-4 flex-auto justify-items-center"> */}
+      <div className="p-16 my-12 ">
         <Animation />
        
       </div>
