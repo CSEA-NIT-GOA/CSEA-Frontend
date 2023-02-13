@@ -9,7 +9,7 @@ function Card(props) {
     transform: show ? "scale(1.03)" : "scale(1)",
     boxShadow: show
       ? "0 20px 25px rgb(0 0 0 / 25%)"
-      : "0 2px 10px rgb(0 0 0 / 8%)"
+      : "0 2px 10px rgb(0 0 0 / 12%)"
   });
   return (
     <animated.div
@@ -21,7 +21,7 @@ function Card(props) {
         <div>
             <img src={props.imagen} alt="" />
             <h2>{props.title}</h2>
-            <p>
+            <p className="max-sm:hidden">
                 {props.content}
             </p>
         </div>

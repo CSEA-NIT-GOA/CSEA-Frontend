@@ -13,6 +13,7 @@ import Event from "../event/event";
 import Teams from "../Announcements/Teams";
 import Announcements from "../Announcements/Announcements";
 import LetterCard from "../newsletter/LetterCard";
+import Navbar from "../Navbar";
 let cards = [
   {
     key: uuidv4(),
@@ -73,7 +74,7 @@ let cards = [
                 volutpat."
       />
     ),
-  }
+  },
 ];
 
 let events = {
@@ -85,19 +86,20 @@ let events = {
 };
 
 function Home() {
+
   return (
     <>
       <div className="p-12 my-12 ">
         <Animation />
-        <div className=" p-16 my-12">
-        <Gallery />
-        </div>
        
       </div>
+        <div className=" p-16 my-12">
+        <Gallery id="gallery" />
+        </div>
       <Teams cards={cards} />
-      <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col">
+      <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col" id="features">
         <div>
-          <div className="m-2 font-mono text-center font-extrabold text-7xl">
+          <div className="m-2 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
             upcomming events
           </div>
           <EventCards events={events.event1} />
@@ -106,7 +108,7 @@ function Home() {
         </div>
         <Announcements />
       </div>
-      <div className="m-2 my-10 font-mono text-center font-extrabold text-7xl">
+      <div id="news" className="m-2 my-10 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
         Our Newsletter
       </div>
       <div className="my-10">
