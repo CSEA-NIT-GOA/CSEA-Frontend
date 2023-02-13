@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer aria-label="Site Footer" class="bg-[#152351]" id="contact">
+        <footer aria-label="Site Footer" class="bg-[#00033F]" id="contact">
             <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-md">
                     <strong
@@ -99,7 +99,7 @@ function Footer() {
                 </p>
 
                 <nav aria-label="Footer Nav" class="mt-6">
-                    <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 text-xl text-[#FB2576]">
+                    <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 text-xl text-[#00C803]">
                         <li>
                             <a class=" transition hover:text-gray-50/75" href="/">
                                 About

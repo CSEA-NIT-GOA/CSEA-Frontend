@@ -8,12 +8,12 @@ const navigation = [
   { name: 'FEATURES', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'NEWS', href: '#news' },
-  { name: 'CONTACTUS', href:'#contact'}
+  { name: 'CONTACT US', href:'#contact'}
 ]
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="p-5 pt-5 lg:px-8 bg-gradient-to-r from-teal-100 to-white sticky top-0 z-10">
+    <div className="p-5 pt-5 lg:px-8 bg-lime-300 sticky top-0 z-10">
         <div>
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
             {/* Logo code */}
@@ -38,7 +38,7 @@ function Navbar() {
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900" >
                   {item.name}
-                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600 "></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500 "></span>
                 </a>
               ))}
             </div>

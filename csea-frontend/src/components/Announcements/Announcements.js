@@ -6,13 +6,13 @@ function Announcements() {
         <h1 className="text-xl font-bold pb-4 text-center max-[850px]:pt-10">Announcements</h1>
         <table class="table-fixed max-[850px]:mx-auto">
           <thead>
-            <tr className="border-cyan-100 border">
+            <tr className="border-green-500 border">
               <th></th>
               <th></th>
             </tr>
           </thead>
           <tbody>
-            <tr className="border-cyan-100 border">
+            <tr className="border-green-500 border">
               <td>
                 <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 1</div>
@@ -22,7 +22,7 @@ function Announcements() {
                 </div>
               </td>
             </tr>
-            <tr className="border-cyan-100 border">
+            <tr className="border-green-500 border">
               <td>
                 <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 2</div>
@@ -32,7 +32,7 @@ function Announcements() {
                 </div>
               </td>
             </tr>
-            <tr className="border-cyan-100 border">
+            <tr className="border-green-500 border">
               <td>
                 <div className="grid grid-rows-2 grid-cols-2 group mx-4 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 3</div>

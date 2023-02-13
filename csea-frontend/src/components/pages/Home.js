@@ -102,10 +102,10 @@ function Home() {
 
       <Teams cards={cards} />
       <div id="features" className="h-[2rem]"></div>
-      <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col" id="features">
+      <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">
         <div>
           <div className="m-2 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
-            upcomming events
+            Upcoming events
           </div>
           <EventCards events={events.event1} />
           <br></br>
