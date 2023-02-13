@@ -3,17 +3,17 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer aria-label="Site Footer" class="bg-[#152351]">
+        <footer aria-label="Site Footer" class="bg-[#152351]" id="contact">
             <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-md">
                     <strong
                         class="block text-center text-xl font-medium text-[#F5F5F5] sm:text-3xl"
                     >
-                        Want us to email you with the latest blockbuster news?
+                        Want to reach out to us?
                     </strong>
 
                     <form class="mt-6">
-                        <div class="relative max-w-lg">
+                        <div class="relative max-w-lg text-black text-center">
                             <label class="sr-only" for="email"> Email </label>
 
                             <input
@@ -23,8 +23,16 @@ function Footer() {
                                 placeholder="Your Email Address Here"
                             />
 
+                            <label class="sr-only" for="email"> Message </label>
+                            <textarea
+                                class="w-full rounded-3xl mt-4 border-gray-200 bg-gray-100 p-4 text-sm font-medium"
+                                id="message"
+                                type="text"
+                                placeholder="Message...."
+                            />
+
                             <button
-                                class="absolute top-1/2 right-1 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+                                class="rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
                                 type="button"
                             >
                                 Subscribe

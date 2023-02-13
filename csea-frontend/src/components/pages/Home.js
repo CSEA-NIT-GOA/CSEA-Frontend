@@ -91,14 +91,17 @@ function Home() {
     <>
       {/* <Event/>  */}
       {/* <div className="p-4 my-4 flex-auto justify-items-center"> */}
-      <div className="p-16 my-12 ">
+      <div className="mt-12 ">
         <Animation />
-       
+
       </div>
-        <div className=" p-16 my-12">
-        <Gallery id="gallery" />
-        </div>
+      <div className="h-12" id="gallery"></div>
+      <div className="mb-12">
+        <Gallery />
+      </div>
+
       <Teams cards={cards} />
+      <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[850px]:flex-col" id="features">
         <div>
           <div className="m-2 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
@@ -110,13 +113,14 @@ function Home() {
         </div>
         <Announcements />
       </div>
-      <div id="news" className="m-2 my-10 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
+      <div id="news" className="h-[2rem]"></div>
+      <div className="m-2 my-10 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
         Our Newsletter
       </div>
       <div className="my-10">
-      <LetterCard />
-      {/* </div> */}
-          <LetterCard /> 
+        <LetterCard />
+        {/* </div> */}
+        <LetterCard />
       </div>
       <Footer />
     </>
