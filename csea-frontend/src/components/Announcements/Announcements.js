@@ -2,9 +2,9 @@ import React from "react";
 function Announcements() {
   return (
     <div>
-      <div className="w-auto">
-        <h1 className="text-xl font-bold pb-4 text-center max-[850px]:pt-10">Announcements</h1>
-        <table class="table-fixed max-[850px]:mx-auto">
+      <div className="w-auto m-6">
+        <h1 className="text-xl font-bold pb-4 text-center max-[1200px]:pt-10">Announcements</h1>
+        <table class="table-fixed max-[1200px]:mx-auto">
           <thead>
             <tr className="border-green-500 border">
               <th></th>

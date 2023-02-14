@@ -17,6 +17,7 @@ function Teams(props) {
   useEffect(() => {
     setOffsetRadius(props.offset);
     setShowArrows(props.showArrows);
+    
   }, [props.offset, props.showArrows]);
 
   return (
