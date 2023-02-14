@@ -91,6 +91,8 @@ function Home() {
     <>
       {/* <Event/>  */}
       {/* <div className="p-4 my-4 flex-auto justify-items-center"> */}
+      <Navbar/>
+      <Herosection/>
       <div className="mt-12 ">
         <Animation />
 

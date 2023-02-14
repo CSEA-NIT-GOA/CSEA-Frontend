@@ -1,7 +1,11 @@
 import React from 'react'
+import Herosection from '../HeroSection'
+import Navbar from '../Navbar'
 import './fullteam.css'
 function FullTeam() {
-  return (
+  return (<>
+    <Navbar/>
+    <Herosection/>
       <div class="main">
           <div class="profile-card">
               <div class="img">
@@ -46,6 +50,7 @@ function FullTeam() {
               </div>
           </div>
       </div>
+      </>
   )
 }
 
