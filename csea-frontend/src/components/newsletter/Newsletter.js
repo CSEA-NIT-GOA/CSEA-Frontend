@@ -30,8 +30,8 @@ const Newsletter = (props) => {
           <p> {props.aboutText}</p>
         </div>
       </div>
-      <div className="container">
-        <div class="sm:flex sm:items-end sm:justify-end">
+      <div className="button_container">
+        <div class="sm:flex sm:justify-end">
           <a
             href="/"
             class="block bg-yellow-400 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-500"

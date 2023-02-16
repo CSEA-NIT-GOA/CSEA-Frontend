@@ -8,6 +8,9 @@
   padding: 1rem 1rem 1rem 1rem;
   
 }
+.button_container{
+    width: auto;
+}
 
 .Newsletter_container_textArea {
   background-color: #093c54;
@@ -27,7 +30,6 @@
   background: #caee24;
   height: 190px;
   text-align: center;
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
