@@ -1,0 +1,38 @@
+.Newsletter_container {
+  background: #caee24;
+  height: 450px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.Newsletter_container_textArea {
+  background-color: #093c54;
+  height: 97%;
+  width: 99%;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.Newsletter_title_textArea {
+    background-color: #093c54;
+    height: 90%;
+    width: 95%;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+
+.Newsletter_title {
+  background: #caee24;
+  height: 100px;
+  text-align: center;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  font-size: 1rem;
+  margin: 0 0 4rem 0;
+}
