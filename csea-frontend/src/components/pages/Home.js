@@ -95,7 +95,7 @@ function Home() {
       <Teams cards={cards} />
       <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">
-        <div>
+        <div className="flex-initial min-[1200px]:w-[55%]">
           <div className="m-2 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
             Upcoming events
           </div>
@@ -103,7 +103,9 @@ function Home() {
           <br></br>
           <EventCards events={events.event1} />
         </div>
-        <Announcements />
+        <div className="flex-none min-[1200px]:w-[30%]">
+          <Announcements />
+        </div>
       </div>
       <div id="news" className="h-[2rem]"></div>
       <div className="m-2 my-10 font-mono text-center font-extrabold text-7xl max-sm:text-5xl">
