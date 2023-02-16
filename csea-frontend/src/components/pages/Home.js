@@ -1,19 +1,15 @@
 import React from "react";
 import Footer from "../Footer";
-import Gallery from "../Gallery";
+import Gallery from "../utilities/Gallery";
 import "../HeroSection";
-import Herosection from "../HeroSection";
 import "../../index.css";
-import Animation from "../animation";
-import Card from "../Announcements/Card";
-
+import Animation from "../utilities/animation";
+import Card from "../Teams/Card";
 import { v4 as uuidv4 } from "uuid";
 import EventCards from "../event/EventCards";
-import Event from "../event/event";
-import Teams from "../Announcements/Teams";
+import Teams from "../Teams/Teams";
 import Announcements from "../Announcements/Announcements";
 import LetterCard from "../newsletter/LetterCard";
-import Navbar from "../Navbar";
 let cards = [
   {
     key: uuidv4(),
@@ -89,19 +85,13 @@ function Home() {
 
   return (
     <>
-      {/* <Event/>  */}
-      {/* <div className="p-4 my-4 flex-auto justify-items-center"> */}
-      <Navbar/>
-      <Herosection/>
       <div className="mt-12 ">
         <Animation />
-
       </div>
       <div className="h-12" id="gallery"></div>
       <div className="mb-12">
         <Gallery />
       </div>
-
       <Teams cards={cards} />
       <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">

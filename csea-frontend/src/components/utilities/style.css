@@ -111,7 +111,7 @@ html,body{
         .subtitle,
         .text,
         .title{
-            backface-visibility:hidden;
+            /* backface-visibility:hidden; */
         }
         
         

@@ -2,7 +2,6 @@ import Carousel from "react-spring-3d-carousel";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
 import { Link } from "react-router-dom";
-import FullTeam from "./FullTeam";
 
 function Teams(props) {
   const table = props.cards.map((element, index) => {
