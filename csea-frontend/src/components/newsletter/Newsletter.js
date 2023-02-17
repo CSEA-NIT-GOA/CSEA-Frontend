@@ -9,15 +9,20 @@ const Newsletter = (props) => {
     <div className="m-5 my-10">
       {/* <!-- ... --> */}
 
-      <div className="Newsletter_title">
+      <div className="Newsletter_title ">
         <div className="Newsletter_title_textArea">
           <div className="m-2 font-mono text-center font-extrabold text-5xl max-sm:text-5xl">
             <h1>{props.title}</h1>
             <div className="date my-9">Date: {props.date}</div>
           </div>
-        
         </div>
       </div>
+
+
+        <div className="Newsletter_container_Image my-9">
+          <img src="..\..\images\how_to_create_a_newsletter_t.png" alt="" />
+        </div>
+
 
       <div className="Newsletter_container my-5">
         <div align="center" className="Newsletter_container_textArea">
@@ -50,10 +55,12 @@ Newsletter.prototype = {
   title: PropTypes.string.isRequired,
   aboutText: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
 };
 
 Newsletter.defaultProps = {
   title: "The title will go here",
   aboutText: "The text will go here",
   date: "The date goes here",
+  image:"csea-frontend\public\images\how_to_create_a_newsletter_t.png"
 };

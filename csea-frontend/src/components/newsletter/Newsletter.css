@@ -5,9 +5,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-items: center;
   padding: 1rem 1rem 1rem 1rem;
   
 }
+
+.Newsletter_container_Image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #093c54;
+}
+
 .button_container{
     width: auto;
 }
