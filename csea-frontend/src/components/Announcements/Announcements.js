@@ -3,10 +3,10 @@ function Announcements() {
   return (
     <div>
       <div className="w-auto m-6">
-        <h1 className="text-xl font-bold pb-4 text-center max-[1200px]:pt-10 bg-lime-700">Announcements</h1>
-        <table class="table-fixed max-[1200px]:mx-auto w-[100%] bg-lime-300">
+        <h1 className="text-xl font-bold pb-4 text-center max-[1200px]:pt-10 bg-gradient-to-r from-zinc-900 via-zinc-900 to-zinc-900 text-white">Announcements</h1>
+        <table class="table-fixed max-[1200px]:mx-auto w-[100%] ">
           <tbody>
-            <tr className="border-lime-600 bg-lime-300 border">
+            <tr className="border-zinc-600 border">
               <td>
                 <div className="grid grid-rows-2 group mx-6 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 1</div>
@@ -16,7 +16,7 @@ function Announcements() {
                 </div>
               </td>
             </tr>
-            <tr className="border-lime-600 bg-lime-300 border">
+            <tr className="border-zinc-600 border">
               <td>
                 <div className="grid grid-rows-2 group mx-6 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 2</div>
@@ -26,7 +26,7 @@ function Announcements() {
                 </div>
               </td>
             </tr>
-            <tr className="border-lime-600 bg-lime-300 border">
+            <tr className="border-zinc-600 border">
               <td>
                 <div className="grid grid-rows-2 group mx-6 my-2">
                   <div className="col-span-2 font-extrabold text-center border-b-[1px]">Announcement 3</div>

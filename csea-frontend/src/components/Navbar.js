@@ -4,7 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/CSEA11.png'
 const navigation = [
-  { name: 'HOME', href: '#home' },
+  { name: 'HOME', href: '/' },
   { name: 'FEATURES', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'NEWS', href: '#news' },
