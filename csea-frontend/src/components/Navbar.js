@@ -4,7 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/CSEA11.png'
 const navigation = [
-  { name: 'HOME', href: '/' },
+  { name: 'HOME', href: '#home' },
   { name: 'FEATURES', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'NEWS', href: '#news' },
@@ -13,7 +13,7 @@ const navigation = [
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="p-5 pt-5 lg:px-8 bg-lime-300 sticky top-0 z-10">
+    <div className="p-5 pt-5 lg:px-8 bg-slate-200 sticky top-0 z-10">
         <div>
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
             {/* Logo code */}
