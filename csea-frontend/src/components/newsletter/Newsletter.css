@@ -1,5 +1,5 @@
 .Newsletter_container {
-  background: #caee24;
+  background: #5bb8e0;
   height: 450px;
   width: auto;
   display: flex;
@@ -11,11 +11,11 @@
 }
 
 .Newsletter_container_Image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  background-color: #093c54;
+  /* display: flex; */
+  margin-left:auto;
+  margin-right: auto;
+  background-color: #181818;
+  color: white;
 }
 
 .button_container{
@@ -23,21 +23,23 @@
 }
 
 .Newsletter_container_textArea {
-  background-color: #093c54;
+  background-color: rgb(18, 18, 18);
   height: 97%;
   width: 99%;
   padding: 1rem 1rem 1rem 1rem;
+  color: white;
 }
 .Newsletter_title_textArea {
-    background-color: #093c54;
+    background-color: #181818;
     height: 90%;
-    width: 95%;
+    width: 98%;
     padding: 1rem 1rem 1rem 1rem;
+    color: white;
   }
   
 
 .Newsletter_title {
-  background: #caee24;
+  background: #5bb8e0;
   height: 190px;
   text-align: center;
   display: flex;
@@ -47,5 +49,5 @@
 
 .date {
   font-size: 1rem;
-  margin: 3rem 0 1rem 0;
+  /* margin: 3rem 0 1rem 0; */
 }
