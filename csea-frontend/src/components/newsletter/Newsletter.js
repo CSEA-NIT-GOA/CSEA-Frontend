@@ -51,6 +51,7 @@ const Newsletter = (props) => {
               {pages.map((c)=>(
                 <div key={c.id} className="">
                   <img src={c.src} alt={c.alt} className="mx-auto my-4 h-[100vh] w-[100vh] max-lg:h-auto max-lg:w-auto"/>
+                  <h1 className="text-white text-center text-3xl max-sm:text-2xl">{c.id}</h1>
                 </div>
               ))}
             </Slider>
