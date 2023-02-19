@@ -1,5 +1,20 @@
-import React from "react";
+import React,{useRef} from "react";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 function Footer() {
+  const form = useRef();
+  const [check, setCheck] = useState(false);
+  const sendEmail = (e) =>{
+    e.preventDefault();
+
+    emailjs.sendForm('service_l9p5bm5','template_3md5b6d', form.current, 'lxxfjuINVlMHPmANr').then((result)=>{
+      if(result.text==='OK'){
+        setCheck(true);
+      }
+    },(err)=>{
+      console.log(err);
+    })
+  }
   return (
     <footer aria-label="Site Footer" class="bg-[#181818]" id="contact">
       <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
@@ -8,7 +23,7 @@ function Footer() {
             Want to reach out to us?
           </strong>
 
-          <form class="mt-6">
+          <form class="mt-6" ref={form} onSubmit={sendEmail}>
             <div class="relative max-w-lg text-black text-center">
               <label class="sr-only" for="email">
                 {" "}
@@ -20,6 +35,7 @@ function Footer() {
                 id="email"
                 type="email"
                 placeholder="Your Email Address Here"
+                name="user_email"
               />
 
               <label class="sr-only" for="email">
@@ -31,14 +47,21 @@ function Footer() {
                 id="message"
                 type="text"
                 placeholder="Message...."
+                name="message"
               />
 
               <button
                 class="rounded-full bg-blue-600 px-5 py-3 mt-2 text-sm font-medium text-white transition hover:bg-blue-700"
-                type="button"
+                type="submit"
+                disabled={check}
               >
                 Subscribe
               </button>
+              {check&& 
+                <div className="text-green-500">
+                  Sent Successfully
+                </div>
+              }
             </div>
           </form>
         </div>
