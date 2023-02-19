@@ -2,7 +2,7 @@ import React from "react";
 function Announcements() {
   return (
     <div>
-      <div className="w-auto m-6">
+      <div className="w-auto m-6 text-black">
         <h1 className="text-xl font-bold pb-4 text-center max-[1200px]:pt-10 bg-gradient-to-r from-zinc-900 via-zinc-900 to-zinc-900 text-white">Announcements</h1>
         <table class="table-fixed max-[1200px]:mx-auto w-[100%] ">
           <tbody>
