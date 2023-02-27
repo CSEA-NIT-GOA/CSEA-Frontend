@@ -49,7 +49,7 @@ function LetterCard() {
             <div class="sm:flex sm:items-end sm:justify-end">
               <a
                 href="Newsletter"
-                class="block bg-yellow-400 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-500"
+                class="block bg-[#4b9cb0] px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-[#0c7691]"
               >
                 Read Blog
               </a>

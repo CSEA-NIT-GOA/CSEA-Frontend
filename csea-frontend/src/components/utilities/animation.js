@@ -48,7 +48,7 @@ export default function Animation() {
     const textStyle = 'max-sm:text-7xl';
   return (
     <div className={styles.container} >
-      <div className=''>
+      <div className='text-center'>
         <Trail open={offset>=300 && offset <=890}>
           <span className={textStyle}>Welcome</span>
           <span className={textStyle}>To</span>

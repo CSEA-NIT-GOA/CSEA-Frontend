@@ -13,7 +13,7 @@ const navigation = [
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="p-5 pt-5 lg:px-8 bg-slate-200 sticky top-0 z-10">
+    <div className="p-5 pt-5 lg:px-8 bg-slate-200 sticky top-0 z-10 bg-gradient-to-r from-zinc-900 via-zinc-900 to-zinc-900 ">
         <div>
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
             {/* Logo code */}
@@ -36,7 +36,7 @@ function Navbar() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-16">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="group font-[700] text-gray-600 hover:text-neutral-900" >
+                <a key={item.name} href={item.href} className="group font-[700] text-white hover:text-slate-400 " >
                   {item.name}
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500 "></span>
                 </a>
