@@ -108,7 +108,7 @@ function Footer() {
               <svg
                 class="h-8 w-8"
                 fill="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="1 1 22 22"
                 aria-hidden="true"
               >
                 <path

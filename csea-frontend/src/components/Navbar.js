@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/CSEA11.png'
 const navigation = [
   { name: 'HOME', href: '/' },
-  { name: 'FEATURES', href: '#features' },
+  { name: 'EVENTS', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'NEWS', href: '#news' },
   { name: 'CONTACT US', href:'#contact'}
@@ -18,7 +18,7 @@ function Navbar() {
           <nav className="flex h-9 items-center justify-between " aria-label="Global">
             {/* Logo code */}
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img className='h-8' src={logo} alt="logo" />
               </a>
