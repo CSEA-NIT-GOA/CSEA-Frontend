@@ -75,6 +75,7 @@ let cards = [
 
 let events = {
   event1: {
+    background :"https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg",
     title: "Go around the world",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,praesentium voluptatem omnis atque culpa repellendus.",
