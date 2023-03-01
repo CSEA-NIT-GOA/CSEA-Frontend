@@ -5,8 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/CSEA11.png'
 const navigation = [
   { name: 'HOME', href: '/' },
-  { name: 'EVENTS', href: '#features' },
   { name: 'GALLERY', href: '#gallery' },
+  { name: 'EVENTS', href: '#features' },
   { name: 'NEWS', href: '#news' },
   { name: 'CONTACT US', href:'#contact'}
 ]
