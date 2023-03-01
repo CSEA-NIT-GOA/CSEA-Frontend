@@ -1,4 +1,4 @@
-import Carousel from "react-spring-3d-carousel";
+import Carousel from "react-spring-3d-carousel-nerdcoder";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
 import { Link } from "react-router-dom";
@@ -33,6 +33,7 @@ function Teams(props) {
             offsetRadius={offsetRadius}
             showNavigation={showArrows}
             animationConfig={config.gentle}
+            opacity={0.4}
           />
         </div>
       </div>

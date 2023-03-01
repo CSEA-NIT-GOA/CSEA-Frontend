@@ -12,12 +12,12 @@ export default function Herosection() {
         <div className="relative px-6 bg-gradient-to-b from-zinc-900 via-zinc-900 to-[#4b9bc0] h-[100vh]">
           <div className="mx-auto max-w-3xl pt-48 pb-30 sm:pt-32 sm:pb-40">
             <div>
-              <div className="text-center">
+              <div className="text-center max-sm:mt-12">
                 <img src={logo} alt="logo" />
-                <p className="my-6 mt-6 text-2xl leading-8 text-gray-300 sm:text-center">
+                <p className="my-6 mt-6 text-3xl lg:ml-20 leading-8 text-gray-300 sm:text-center">
                   Computer Science and Engineering Association
                 </p>
-                <p className="my-0 text-md leading-8 text-gray-300 sm:text-center">
+                <p className="my-0 text-md leading-8 lg:ml-20  text-gray-300 sm:text-center">
                   National Institute of Technology, Goa
                 </p>
               </div>
