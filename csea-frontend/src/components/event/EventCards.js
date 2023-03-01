@@ -2,11 +2,11 @@ import React from 'react'
 
 function EventCards(props) {
   return (
-    <a href="" class="group relative block h-96">
+    <a href="" class="group relative block h-[29.25rem] max-sm:h-[13.50rem]">
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
   <div
-    class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2" style={{ backgroundImage: `url(${props.events.background})`}}
+    class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2" style={{ backgroundImage: `url(${props.events.background})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}
   >
     <div
       class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
@@ -26,17 +26,17 @@ function EventCards(props) {
         />
       </svg> */}
 
-      <h2 class="mt-4 text-2xl font-medium">{props.events.title}</h2>
+      {/* <h2 class="mt-4 text-2xl font-medium">{props.events.title}</h2> */}
     </div>
 
     <div
       class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 " 
     >
-      <h3 class="mt-4 text-2xl font-medium">{props.events.title}</h3>
+      {/* <h3 class="mt-4 text-2xl font-medium">{props.events.title}</h3> */}
 
-      <p class="mt-4">{props.events.content}</p>
+      {/* <p class="mt-4">{props.events.content}</p> */}
 
-      <p class="mt-8 font-bold">Read more</p>
+      {/* <p class="mt-8 font-bold">Read more</p> */}
     </div>
   </div>
 </a>

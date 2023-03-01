@@ -10,12 +10,23 @@ import EventCards from "../event/EventCards";
 import Teams from "../Teams/Teams";
 import Announcements from "../Announcements/Announcements";
 import LetterCard from "../newsletter/LetterCard";
+
+//Core Members
+import Aditya from "../images/Core members/Aditya.jpg"
+import Jayendra from "../images/Core members/Jayendra.jpg"
+import Pritika from "../images/Core members/Pritika.jpg"
+import Ann from "../images/Core members/Ann.jpg"
+import Vaibhav from "../images/Core members/Vaibhav.jpg"
+
+//Notices
+import PlacementTalk from "../images/Notices/PlacementTalk.png"
+
 let cards = [
   {
     key: uuidv4(),
     content: (
       <Card
-        imagen="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png"
+        imagen={Aditya}
         title="Card1"
         content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -27,7 +38,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/convertplus_thumbnail.jpg"
+        imagen={Jayendra}
         title="Card2"
         content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -39,7 +50,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png"
+        imagen={Vaibhav}
         title="Card3"
         content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -51,7 +62,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png"
+        imagen={Ann}
         title="Card4"
         content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -63,7 +74,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png"
+        imagen={Pritika}
         title="Card5"
         content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                 nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -75,7 +86,7 @@ let cards = [
 
 let events = {
   event1: {
-    background :"https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg",
+    background : PlacementTalk,
     title: "Go around the world",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,praesentium voluptatem omnis atque culpa repellendus.",
@@ -93,7 +104,7 @@ function Home() {
       <div className="mb-12">
         <Gallery />
       </div>
-      <Teams cards={cards} />
+      <Teams cards={cards} offset={3}/>
       <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">
         <div className="flex-initial min-[1200px]:w-[55%]">
@@ -101,8 +112,8 @@ function Home() {
             Upcoming events
           </div>
           <EventCards events={events.event1} />
-          <br></br>
-          <EventCards events={events.event1} />
+          {/* <br></br>
+          <EventCards events={events.event1} /> */}
         </div>
         <div className="flex-none min-[1200px]:w-[30%]">
           <Announcements />
