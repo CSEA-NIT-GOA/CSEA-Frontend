@@ -104,7 +104,7 @@ function Home() {
       <div className="mb-12">
         <Gallery />
       </div>
-      <Teams cards={cards} offset={3}/>
+      <Teams cards={cards} offset={2}/>
       <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">
         <div className="flex-initial min-[1200px]:w-[55%]">
@@ -126,7 +126,7 @@ function Home() {
       <div className="my-10">
         <LetterCard />
         {/* </div> */}
-        <LetterCard />
+        {/* <LetterCard /> */}
       </div>
       <Footer />
     </>

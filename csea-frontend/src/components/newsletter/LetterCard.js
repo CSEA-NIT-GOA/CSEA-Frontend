@@ -6,7 +6,9 @@ function LetterCard() {
         <article
           class="flex bg-white transition hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-800/25"
         >
-          <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
+          {/* Uncomment below div for time */}
+
+          {/* <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
             <time
               datetime="2022-10-10"
               class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900 dark:text-white"
@@ -15,7 +17,7 @@ function LetterCard() {
               <span class="w-px flex-1 bg-gray-900/10 dark:bg-white/10"></span>
               <span>Oct 10</span>
             </time>
-          </div>
+          </div> */}
 
           <div class="hidden sm:block sm:basis-56">
             <img
@@ -29,29 +31,27 @@ function LetterCard() {
             <div
               class="border-l border-gray-900/10 p-4 dark:border-white/10 sm:!border-l-transparent sm:p-6"
             >
-              <a href="#">
+              {/* Uncomment below anchor for title */}
+
+              {/* <a href="#">
                 <h3 class="font-bold uppercase text-gray-900 dark:text-white">
-                  Finding the right guitar for your style - 5 tips
+                  COMING SOON ........
                 </h3>
-              </a>
+              </a> */}
 
               <p
-                class="mt-2 text-sm leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200"
+                class="mt-2 text-sm leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200 text-7xl"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-                sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-                voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-                Molestias explicabo corporis voluptatem?
+                COMING SOON.............
               </p>
             </div>
-
-            <div class="sm:flex sm:items-end sm:justify-end">
+              {/* Remove Pointer events */}
+            <div class="sm:flex sm:items-end sm:justify-end pointer-events-none">
               <a
                 href="Newsletter"
                 class="block bg-[#4b9cb0] px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-[#0c7691]"
               >
-                Read Blog
+                Soon....
               </a>
             </div>
           </div>

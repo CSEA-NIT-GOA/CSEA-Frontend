@@ -19,7 +19,7 @@ function Card(props) {
       onMouseLeave={() => setShown(false)}
     >
         <div className="">
-            <img src={props.imagen} alt="" className="h-80 w-80"/>
+            <img src={props.imagen} alt="" className=""/>
             <h2>{props.title}</h2>
             <p className="max-sm:hidden">
                 {props.content}
