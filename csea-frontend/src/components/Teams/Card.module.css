@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #181818f4;
+    width: 20rem;
+    height: fit-content;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .card img {
+    margin-top: 10%;
+    width: auto;
+    border-radius: 20px;
+    /* height: 20rem; */
+    object-fit:initial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card h2 {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  
+  .card p {
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width:500px ){
+    .card {
+        width: 18rem;
+    }
+  }
