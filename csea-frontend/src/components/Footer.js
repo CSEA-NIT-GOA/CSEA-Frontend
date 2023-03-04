@@ -69,7 +69,7 @@ function Footer() {
           Footer content if any
         </p> */}
 
-        <nav aria-label="Footer Nav" class="mt-6">
+        {/* <nav aria-label="Footer Nav" class="mt-6">
           <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 text-xl text-[#fff]">
             <li>
               <a class=" transition hover:text-gray-50/75" href="/">
@@ -94,7 +94,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <ul class="mt-8 flex justify-center gap-6 md:gap-8">
           <li>

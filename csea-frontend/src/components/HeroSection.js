@@ -9,7 +9,7 @@ export default function Herosection() {
         <a href="https://www.nitgoa.ac.in/" target={"_blank"}>
           <img src={nit} alt="nit logo" className=" absolute z-10 h-28 w-28 right-4 mt-4" />
         </a>
-        <div className="relative px-6 bg-gradient-to-b from-zinc-900 via-zinc-900 to-[#4b9bc0] h-[100vh]">
+        <div className="relative px-6  h-[100vh]" style={{background:"linear-gradient(#18181b,transparent), linear-gradient(to top,#4b9bc0,#18181b)", backgroundBlendMode:"normal"}}>
           <div className="mx-auto max-w-3xl pt-48 pb-30 sm:pt-32 sm:pb-40">
             <div>
               <div className="text-center max-sm:mt-12">
