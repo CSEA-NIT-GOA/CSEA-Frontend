@@ -2,11 +2,11 @@ import React from 'react'
 
 function EventCards(props) {
   return (
-    <a href="" class="group relative block h-[29.25rem] max-sm:h-[13.50rem]">
+    <a href="/" class="group relative block h-[29.25rem]  max-sm:h-[13.50rem]">
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
   <div
-    class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2" style={{ backgroundImage: `url(${props.events.background})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}
+    class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2" style={{ backgroundImage: `url(${props.events.background})`,backgroundSize:'100% 100%',backgroundPosition:'center center', backgroundRepeat:'no-repeat'}}
   >
     <div
       class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
