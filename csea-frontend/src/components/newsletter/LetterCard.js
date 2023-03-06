@@ -40,7 +40,7 @@ function LetterCard() {
               </a> */}
 
               <p
-                class="mt-2 leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200 text-7xl max-sm:text-3xl"
+                class="mt-2 text-sm leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200 text-7xl"
               >
                 COMING SOON.............
               </p>

@@ -122,11 +122,12 @@ function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://www.linkedin.com/company/csea-nit-goa"
               rel="noreferrer"
               target="_blank"
               class="text-[#0072b1] transition hover:text-gray-50/75"
             >
+            <span class="sr-only">LinkedIn</span>
               <svg
                 class="h-8 w-8"
                 fill="currentColor"
@@ -139,7 +140,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="/"
+              href="https://www.instagram.com/csea.nitg/"
               rel="noreferrer"
               target="_blank"
               class="text-red-600 transition hover:text-gray-50/75"
@@ -157,7 +158,7 @@ function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://github.com/CSEA-NIT-GOA"
               rel="noreferrer"
               target="_blank"
               class="text-white transition hover:text-gray-50/75"
