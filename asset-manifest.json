@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CSEA-NIT-GOA/CSEA-Frontend/static/css/main.826904d8.css",
-    "main.js": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/main.71069e9a.js",
+    "main.js": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/main.4d5c96af.js",
     "static/js/787.8442b498.chunk.js": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/787.8442b498.chunk.js",
     "static/media/Aditya.jpg": "/CSEA-NIT-GOA/CSEA-Frontend/static/media/Aditya.69f99958f331b459f926.jpg",
     "static/media/PlacementTalk.png": "/CSEA-NIT-GOA/CSEA-Frontend/static/media/PlacementTalk.8067d5d7db6341bf2f9a.png",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/CSEA-NIT-GOA/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CSEA-NIT-GOA/CSEA-Frontend/index.html",
     "main.826904d8.css.map": "/CSEA-NIT-GOA/CSEA-Frontend/static/css/main.826904d8.css.map",
-    "main.71069e9a.js.map": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/main.71069e9a.js.map",
+    "main.4d5c96af.js.map": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/main.4d5c96af.js.map",
     "787.8442b498.chunk.js.map": "/CSEA-NIT-GOA/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.826904d8.css",
-    "static/js/main.71069e9a.js"
+    "static/js/main.4d5c96af.js"
   ]
 }
