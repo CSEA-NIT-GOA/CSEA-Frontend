@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CSEA-Frontend/static/css/main.6d666d03.css",
-    "main.js": "/CSEA-Frontend/static/js/main.01186870.js",
+    "main.js": "/CSEA-Frontend/static/js/main.61cb25fc.js",
     "static/js/787.8442b498.chunk.js": "/CSEA-Frontend/static/js/787.8442b498.chunk.js",
     "static/media/Aditya.jpg": "/CSEA-Frontend/static/media/Aditya.69f99958f331b459f926.jpg",
     "static/media/PlacementTalk.png": "/CSEA-Frontend/static/media/PlacementTalk.8067d5d7db6341bf2f9a.png",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CSEA-Frontend/index.html",
     "main.6d666d03.css.map": "/CSEA-Frontend/static/css/main.6d666d03.css.map",
-    "main.01186870.js.map": "/CSEA-Frontend/static/js/main.01186870.js.map",
+    "main.61cb25fc.js.map": "/CSEA-Frontend/static/js/main.61cb25fc.js.map",
     "787.8442b498.chunk.js.map": "/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d666d03.css",
-    "static/js/main.01186870.js"
+    "static/js/main.61cb25fc.js"
   ]
 }
