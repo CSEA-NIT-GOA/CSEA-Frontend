@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.34315192.css",
-    "main.js": "./static/js/main.583b5f99.js",
-    "static/js/787.8442b498.chunk.js": "./static/js/787.8442b498.chunk.js",
-    "static/media/Aditya.jpg": "./static/media/Aditya.69f99958f331b459f926.jpg",
-    "static/media/PlacementTalk.png": "./static/media/PlacementTalk.8067d5d7db6341bf2f9a.png",
-    "static/media/Vaibhav.jpg": "./static/media/Vaibhav.cbfe2617bd28223abb44.jpg",
-    "static/media/Pritika.jpg": "./static/media/Pritika.571fd11479fe1a1818b9.jpg",
-    "static/media/CSEA11.png": "./static/media/CSEA11.14be2bb070a5d35e82b8.png",
-    "static/media/NITLogo.png": "./static/media/NITLogo.4b51df9e12445dbc9049.png",
-    "static/media/Ann.jpg": "./static/media/Ann.874c48fbf4b453d7586b.jpg",
-    "static/media/Jayendra.jpg": "./static/media/Jayendra.53ba2e1fdc3ea519c41d.jpg",
-    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "./index.html",
-    "main.34315192.css.map": "./static/css/main.34315192.css.map",
-    "main.583b5f99.js.map": "./static/js/main.583b5f99.js.map",
-    "787.8442b498.chunk.js.map": "./static/js/787.8442b498.chunk.js.map"
+    "main.css": "/CSEA-Frontend/static/css/main.6d666d03.css",
+    "main.js": "/CSEA-Frontend/static/js/main.52c8f475.js",
+    "static/js/787.8442b498.chunk.js": "/CSEA-Frontend/static/js/787.8442b498.chunk.js",
+    "static/media/Aditya.jpg": "/CSEA-Frontend/static/media/Aditya.69f99958f331b459f926.jpg",
+    "static/media/PlacementTalk.png": "/CSEA-Frontend/static/media/PlacementTalk.8067d5d7db6341bf2f9a.png",
+    "static/media/Vaibhav.jpg": "/CSEA-Frontend/static/media/Vaibhav.cbfe2617bd28223abb44.jpg",
+    "static/media/Pritika.jpg": "/CSEA-Frontend/static/media/Pritika.571fd11479fe1a1818b9.jpg",
+    "static/media/CSEA11.png": "/CSEA-Frontend/static/media/CSEA11.14be2bb070a5d35e82b8.png",
+    "static/media/NITLogo.png": "/CSEA-Frontend/static/media/NITLogo.4b51df9e12445dbc9049.png",
+    "static/media/Ann.jpg": "/CSEA-Frontend/static/media/Ann.874c48fbf4b453d7586b.jpg",
+    "static/media/Jayendra.jpg": "/CSEA-Frontend/static/media/Jayendra.53ba2e1fdc3ea519c41d.jpg",
+    "static/media/slick.svg": "/CSEA-Frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/CSEA-Frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/CSEA-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/CSEA-Frontend/index.html",
+    "main.6d666d03.css.map": "/CSEA-Frontend/static/css/main.6d666d03.css.map",
+    "main.52c8f475.js.map": "/CSEA-Frontend/static/js/main.52c8f475.js.map",
+    "787.8442b498.chunk.js.map": "/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34315192.css",
-    "static/js/main.583b5f99.js"
+    "static/css/main.6d666d03.css",
+    "static/js/main.52c8f475.js"
   ]
 }
