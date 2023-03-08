@@ -23,18 +23,18 @@ const Trail = ({ open, children }) => {
   )
 }
 
-class MyComponent extends React.Component {
-  handleScroll = e => {
-    let element = e.target
-    if (element.scrollHeight - element.scrollTop === element.clientHeight) {
-      this.state = !this.state
-    }
-  }
-}
+// class MyComponent extends React.Component {
+//   handleScroll = e => {
+//     let element = e.target
+//     if (element.scrollHeight - element.scrollTop === element.clientHeight) {
+//       this.state = !this.state
+//     }
+//   }
+// }
 
 
 export default function Animation() {
-  const [open, set] = useState(true)
+  // const [open, set] = useState(true)
   const [offset, setOffset] = useState(0);
 
     useEffect(() => {
