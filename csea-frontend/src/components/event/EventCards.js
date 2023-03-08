@@ -2,7 +2,7 @@ import React from 'react'
 
 function EventCards(props) {
   return (
-    <a href="/" class="group relative block h-[29.25rem]  max-sm:h-[13.50rem]">
+    <a href="#" class="group relative block h-[29.25rem]  max-sm:h-[13.50rem]">
   <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
   <div

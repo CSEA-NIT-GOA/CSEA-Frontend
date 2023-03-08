@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
 import Home from './components/pages/Home';
 import FullTeam from './components/Teams/FullTeam';
 import Newsletter from './components/newsletter/Newsletter';
@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Herosection from './components/HeroSection';
 function App() {
   return (
-    <Router>  
+    <Router basename='/CSEA-Frontend'>  
       <Navbar/>
       <Herosection/>
       <Routes>
