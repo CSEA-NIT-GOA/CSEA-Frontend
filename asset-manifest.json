@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/CSEA-Frontend/static/css/main.6d666d03.css",
-    "main.js": "/CSEA-Frontend/static/js/main.d232352d.js",
+    "main.js": "/CSEA-Frontend/static/js/main.e9b4a445.js",
     "static/js/787.8442b498.chunk.js": "/CSEA-Frontend/static/js/787.8442b498.chunk.js",
     "static/media/Aditya.jpg": "/CSEA-Frontend/static/media/Aditya.69f99958f331b459f926.jpg",
-    "static/media/PlacementTalk.png": "/CSEA-Frontend/static/media/PlacementTalk.ec7800e23edd4a2da409.png",
+    "static/media/PlacementTalk.png": "/CSEA-Frontend/static/media/PlacementTalk.ca4de0e8d0d4496ef596.png",
     "static/media/Vaibhav.jpg": "/CSEA-Frontend/static/media/Vaibhav.cbfe2617bd28223abb44.jpg",
     "static/media/Pritika.jpg": "/CSEA-Frontend/static/media/Pritika.571fd11479fe1a1818b9.jpg",
     "static/media/CSEA11.png": "/CSEA-Frontend/static/media/CSEA11.14be2bb070a5d35e82b8.png",
@@ -17,11 +17,11 @@
     "static/media/slick.woff": "/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CSEA-Frontend/index.html",
     "main.6d666d03.css.map": "/CSEA-Frontend/static/css/main.6d666d03.css.map",
-    "main.d232352d.js.map": "/CSEA-Frontend/static/js/main.d232352d.js.map",
+    "main.e9b4a445.js.map": "/CSEA-Frontend/static/js/main.e9b4a445.js.map",
     "787.8442b498.chunk.js.map": "/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d666d03.css",
-    "static/js/main.d232352d.js"
+    "static/js/main.e9b4a445.js"
   ]
 }
