@@ -4,7 +4,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/CSEA11.png'
 const navigation = [
-  { name: 'HOME', href: 'https://csea-nit-goa.github.io/CSEA-Frontend/' },
+  { name: 'HOME', href: '/CSEA-Frontend/' },
   { name: 'GALLERY', href: '#gallery' },
   { name: 'EVENTS', href: '#features' },
   { name: 'NEWS', href: '#news' },

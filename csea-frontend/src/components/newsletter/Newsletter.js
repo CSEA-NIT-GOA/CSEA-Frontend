@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 const pages = [
   {id:1,src:"https://miro.medium.com/v2/resize:fit:1400/format:webp/0*LZGw5v0-0tlsiKxR.png", alt:"images"},
-  {id:2,src:"../../images/how_to_create_a_newsletter_t.png", alt:"images"},
+  {id:2,src:"../../images/Events/1.jpg", alt:"images"},
   {id:3,src:"https://miro.medium.com/v2/resize:fit:1400/format:webp/0*LZGw5v0-0tlsiKxR.png", alt:"images"},
   {id:4,src:"../../images/how_to_create_a_newsletter_t.png", alt:"images"}
 ]

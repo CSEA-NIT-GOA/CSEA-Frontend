@@ -10,6 +10,7 @@ import EventCards from "../event/EventCards";
 import Teams from "../Teams/Teams";
 import Announcements from "../Announcements/Announcements";
 import LetterCard from "../newsletter/LetterCard";
+import Herosection from "../HeroSection";
 
 //Core Members
 import Aditya from "../images/Core members/Aditya.jpg"
@@ -20,6 +21,7 @@ import Vaibhav from "../images/Core members/Vaibhav.jpg"
 
 //Notices
 import PlacementTalk from "../images/Notices/PlacementTalk.png"
+import { Link } from "react-router-dom";
 
 let cards = [
   {
@@ -27,10 +29,8 @@ let cards = [
     content: (
       <Card
         imagen={Aditya}
-        title="Card1"
-        content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat."
+        title="Aditya"
+        content="President"
       />
     ),
   },
@@ -39,10 +39,8 @@ let cards = [
     content: (
       <Card
         imagen={Jayendra}
-        title="Card2"
-        content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat."
+        title="Jayendra"
+        content="Vice President"
       />
     ),
   },
@@ -51,10 +49,8 @@ let cards = [
     content: (
       <Card
         imagen={Vaibhav}
-        title="Card3"
-        content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat."
+        title="Vaibhav Yadav"
+        content="Dy. General Secretary"
       />
     ),
   },
@@ -63,10 +59,8 @@ let cards = [
     content: (
       <Card
         imagen={Ann}
-        title="Card4"
-        content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat."
+        title="Ann Mariya Roy"
+        content="General Secretary"
       />
     ),
   },
@@ -75,10 +69,8 @@ let cards = [
     content: (
       <Card
         imagen={Pritika}
-        title="Card5"
-        content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat."
+        title="Pritika Barshilia"
+        content="Joint Secretary"
       />
     ),
   },
@@ -86,7 +78,7 @@ let cards = [
 
 let events = {
   event1: {
-    background : PlacementTalk,
+    background: PlacementTalk,
     title: "Go around the world",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,praesentium voluptatem omnis atque culpa repellendus.",
@@ -97,6 +89,7 @@ function Home() {
 
   return (
     <>
+      <Herosection/>
       <div className="mt-12 ">
         <Animation />
       </div>
@@ -104,11 +97,11 @@ function Home() {
       <div className="mb-12">
         <Gallery />
       </div>
-      <Teams cards={cards} offset={2}/>
+      <Teams cards={cards} offset={2} />
       <div id="features" className="h-[2rem]"></div>
       <div className="p-5 my-3 flex justify-evenly max-[1200px]:flex-col" id="features">
         <div className="flex-initial min-[1200px]:w-[55%]">
-          <div className="m-2 mb-4 text-center font-bold text-7xl max-sm:text-5xl text-black">
+          <div className="m-2 mb-4 text-center font-bold text-7xl max-sm:text-5xl max-sm:mt-20 text-black">
             Upcoming events
           </div>
           <EventCards events={events.event1} />
@@ -118,6 +111,13 @@ function Home() {
         <div className="flex-none min-[1200px]:w-[30%]">
           <Announcements />
         </div>
+      </div>
+      <div className="text-black text-center">
+        <Link to={"/pastevents"}>
+          <button className="bg-transparent hover:bg-zinc-900 font-semibold hover:text-white py-4 px-12 border border-black hover:border-transparent rounded text-3xl">
+            Past Events
+          </button>
+        </Link>
       </div>
       <div id="news" className="h-[2rem]"></div>
       <div className="m-2 my-10 text-center font-bold text-7xl max-sm:text-5xl text-black">

@@ -26,7 +26,7 @@ function Teams(props) {
         className="flex justify-evenly max-[850px]:flex-col px-8"
       >
         <div className="h-[540px] w-[55%] mx-32 mb-20 max-[850px]:mx-auto max-sm:w-[50%] max-sm:h-[400px]">
-          <h1 className=" text-5xl font-bold text-center font-sans pb-16 max-md:pb-8 text-black">Our Team</h1>
+          <h1 className=" text-5xl font-bold text-center font-sans pb-16 max-md:pb-8 text-black max-sm:mb-12">Our Team</h1>
           <Carousel
             slides={cards}
             goToSlide={goToSlide}

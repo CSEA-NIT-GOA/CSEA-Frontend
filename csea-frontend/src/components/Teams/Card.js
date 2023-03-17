@@ -20,9 +20,9 @@ function Card(props) {
     >
         <div className="">
             <img src={props.imagen} alt="" className=""/>
-            <h2>{props.title}</h2>
-            <p className="max-sm:hidden">
-                {props.content}
+            <h2 className=" text-xl">{props.title}</h2>
+            <p className=" text-right font-bold">
+                -- {props.content}
             </p>
         </div>
     </animated.div>
