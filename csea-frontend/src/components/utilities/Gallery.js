@@ -57,11 +57,13 @@ class CustomSlide extends Component {
 export default class Responsive extends Component {
   render() {
     var settings = {
+      autoplay: true,
+      autoplaySpeed:1000,
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       initialSlide: 0,
       responsive: [
         {
