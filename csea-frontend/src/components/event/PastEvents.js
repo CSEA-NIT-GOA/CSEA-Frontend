@@ -37,7 +37,7 @@ function PastEvents() {
           Past Events
       </div>
       <div className='p-8 h-[100%] min-h-screen flex flex-wrap gap-4 justify-center'>
-        <div className='w-[48%] hover:cursor-pointer' onClick={()=>setshow(true)}>
+        <div className='max-md:w-[100%] w-[48%] hover:cursor-pointer' onClick={()=>setshow(true)}>
           <EventCards events={events.event1} />
         </div>
         {/* <div className='w-[48%]'>

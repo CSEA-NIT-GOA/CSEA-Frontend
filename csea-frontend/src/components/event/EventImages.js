@@ -30,7 +30,7 @@ const EventImages = ({images}) => {
             <Slider {...settings} ref={carouselRef} style={{ position: 'fixed', top: 0,left:0, width: '100%', height: '100%',display:'flex', justifyContent:'center',alignItems:'center', backgroundColor:'#ffffffb3'}}>
               {images.map((c)=>(
                 <div key={c.id} className="">
-                  <img src={c.src} alt={c.alt} className="mx-auto my-4 h-[70vh]  max-lg:h-auto max-lg:w-auto"/>
+                  <img src={c.src} alt={c.alt} className="mx-auto my-auto h-[70vh]  max-lg:h-auto max-lg:w-auto"/>
                   <h1 className="text-black text-center text-3xl max-sm:text-2xl">{c.id}</h1>
                 </div>
               ))}
@@ -42,16 +42,10 @@ const EventImages = ({images}) => {
     );
   };
   EventImages.prototype = {
-    title: PropTypes.string.isRequired,
-    aboutText: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
   };
   
   EventImages.defaultProps = {
-    title: "The title will go here",
-    aboutText: "The text will go here",
-    date: "The date goes here",
     image:"csea-frontend\public\images\how_to_create_a_newsletter_t.png"
   };
   
