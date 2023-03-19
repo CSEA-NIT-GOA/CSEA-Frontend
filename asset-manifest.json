@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CSEA-Frontend/static/css/main.418b6078.css",
-    "main.js": "/CSEA-Frontend/static/js/main.cb292b76.js",
+    "main.css": "/CSEA-Frontend/static/css/main.f159d8ab.css",
+    "main.js": "/CSEA-Frontend/static/js/main.35113d5b.js",
     "static/js/787.8442b498.chunk.js": "/CSEA-Frontend/static/js/787.8442b498.chunk.js",
     "static/media/2.jpg": "/CSEA-Frontend/static/media/2.5a317d4468d625a41a54.jpg",
     "static/media/1.jpg": "/CSEA-Frontend/static/media/1.e411a8a3e30df4c6b13c.jpg",
@@ -10,24 +10,25 @@
     "static/media/4.jpg": "/CSEA-Frontend/static/media/4.7858faad2fc5e277b94a.jpg",
     "static/media/3.jpg": "/CSEA-Frontend/static/media/3.deb7b67aeb28fd519b93.jpg",
     "static/media/Aditya.jpg": "/CSEA-Frontend/static/media/Aditya.69f99958f331b459f926.jpg",
+    "static/media/Jayendra.jpg": "/CSEA-Frontend/static/media/Jayendra.4202868682fcb776a1be.jpg",
     "static/media/PlacementTalk.png": "/CSEA-Frontend/static/media/PlacementTalk.ca4de0e8d0d4496ef596.png",
     "static/media/Vaibhav.jpg": "/CSEA-Frontend/static/media/Vaibhav.cbfe2617bd28223abb44.jpg",
     "static/media/Pritika.jpg": "/CSEA-Frontend/static/media/Pritika.571fd11479fe1a1818b9.jpg",
     "static/media/CSEA11.png": "/CSEA-Frontend/static/media/CSEA11.14be2bb070a5d35e82b8.png",
     "static/media/NITLogo.png": "/CSEA-Frontend/static/media/NITLogo.4b51df9e12445dbc9049.png",
+    "static/media/acheivement1.jpeg": "/CSEA-Frontend/static/media/acheivement1.6f55e0840b0484e40ffc.jpeg",
     "static/media/Ann.jpg": "/CSEA-Frontend/static/media/Ann.874c48fbf4b453d7586b.jpg",
-    "static/media/Jayendra.jpg": "/CSEA-Frontend/static/media/Jayendra.53ba2e1fdc3ea519c41d.jpg",
     "static/media/slick.svg": "/CSEA-Frontend/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/CSEA-Frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/CSEA-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CSEA-Frontend/index.html",
-    "main.418b6078.css.map": "/CSEA-Frontend/static/css/main.418b6078.css.map",
-    "main.cb292b76.js.map": "/CSEA-Frontend/static/js/main.cb292b76.js.map",
+    "main.f159d8ab.css.map": "/CSEA-Frontend/static/css/main.f159d8ab.css.map",
+    "main.35113d5b.js.map": "/CSEA-Frontend/static/js/main.35113d5b.js.map",
     "787.8442b498.chunk.js.map": "/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.418b6078.css",
-    "static/js/main.cb292b76.js"
+    "static/css/main.f159d8ab.css",
+    "static/js/main.35113d5b.js"
   ]
 }
