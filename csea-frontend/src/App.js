@@ -5,7 +5,7 @@ import FullTeam from './components/Teams/FullTeam';
 import Newsletter from './components/newsletter/Newsletter';
 import Navbar from './components/Navbar';
 import Herosection from './components/HeroSection';
-import PastEvents from './components/event/PastEvents';
+import PastEvents from './components/event/PastEvents/PastEvents';
 function App() {
   return (
     <Router basename='/CSEA-Frontend'>  

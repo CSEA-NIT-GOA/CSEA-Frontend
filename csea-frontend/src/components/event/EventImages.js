@@ -24,6 +24,8 @@ const EventImages = ({images}) => {
   const handleNextClick = () => {
     carouselRef.current.slickNext(); // move to the next slide
   };
+  if(images.length !== 0){
+
     return ( 
       <div className="my-9 mx-auto text-black relative">
           <div className="relative mx-auto">
@@ -41,12 +43,6 @@ const EventImages = ({images}) => {
       </div>
     );
   };
-  EventImages.prototype = {
-    image: PropTypes.string.isRequired,
-  };
-  
-  EventImages.defaultProps = {
-    image:"csea-frontend\public\images\how_to_create_a_newsletter_t.png"
-  };
+}
   
   export default EventImages;

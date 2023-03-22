@@ -5,6 +5,8 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
@@ -12,6 +14,10 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.5",
     "@heroicons/react": "^2.0.13",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
     "@react-spring/web": "^9.6.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -27,6 +33,7 @@
     "react-spring-3d-carousel": "^1.3.2",
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.1.3",
+    "tw-elements": "^1.0.0-beta1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

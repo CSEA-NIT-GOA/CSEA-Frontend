@@ -1,16 +1,21 @@
-import React from 'react'
+import React from "react";
 
 function EventCards(props) {
+  if(props.events.background!==null)
   return (
     <div className="group relative block h-[29.25rem]  max-sm:h-[13.50rem]">
       <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
       <div
-        class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2" style={{ backgroundImage: `url(${props.events.background})`, backgroundSize: '100% 100%', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat' }}
+        class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+        style={{
+          backgroundImage: `url(${props.events.background})`,
+          backgroundSize: "100% 100%",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
-        <div
-          class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0"
-        >
+        <div class="px-8 pb-8 transition-opacity group-hover:absolute group-hover:opacity-0">
           {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-12 w-12"
@@ -29,9 +34,7 @@ function EventCards(props) {
           {/* <h2 class="mt-4 text-2xl font-medium">{props.events.title}</h2> */}
         </div>
 
-        <div
-          class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 "
-        >
+        <div class="absolute p-8 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 ">
           {/* <h3 class="mt-4 text-2xl font-medium">{props.events.title}</h3> */}
 
           {/* <p class="mt-4">{props.events.content}</p> */}
@@ -40,7 +43,7 @@ function EventCards(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default EventCards
+export default EventCards;
