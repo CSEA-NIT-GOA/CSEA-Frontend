@@ -71,7 +71,7 @@ function PastEvents() {
             </div>
           }
         </div>
-        {hover && <div className='absolute right-[10%] top-[20%] animate-expand '>
+        {hover && <div className='absolute right-[20%] top-[20%] animate-expand '>
           {events[index].images.map((img) => (
             <img src={img.src} alt="hoverImg" className='w-20 m-2' />
           ))}
