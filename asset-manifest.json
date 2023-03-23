@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CSEA-Frontend/static/css/main.f835b475.css",
-    "main.js": "/CSEA-Frontend/static/js/main.aafc31f1.js",
+    "main.css": "/CSEA-Frontend/static/css/main.a10b7d86.css",
+    "main.js": "/CSEA-Frontend/static/js/main.b0e524f1.js",
     "static/js/787.8442b498.chunk.js": "/CSEA-Frontend/static/js/787.8442b498.chunk.js",
     "static/media/2.jpg": "/CSEA-Frontend/static/media/2.5a317d4468d625a41a54.jpg",
     "static/media/1.jpg": "/CSEA-Frontend/static/media/1.e411a8a3e30df4c6b13c.jpg",
@@ -23,12 +23,12 @@
     "static/media/slick.ttf": "/CSEA-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/CSEA-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CSEA-Frontend/index.html",
-    "main.f835b475.css.map": "/CSEA-Frontend/static/css/main.f835b475.css.map",
-    "main.aafc31f1.js.map": "/CSEA-Frontend/static/js/main.aafc31f1.js.map",
+    "main.a10b7d86.css.map": "/CSEA-Frontend/static/css/main.a10b7d86.css.map",
+    "main.b0e524f1.js.map": "/CSEA-Frontend/static/js/main.b0e524f1.js.map",
     "787.8442b498.chunk.js.map": "/CSEA-Frontend/static/js/787.8442b498.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f835b475.css",
-    "static/js/main.aafc31f1.js"
+    "static/css/main.a10b7d86.css",
+    "static/js/main.b0e524f1.js"
   ]
 }
