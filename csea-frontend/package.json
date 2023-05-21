@@ -1,7 +1,7 @@
 {
   "name": "csea-frontend",
   "version": "0.1.0",
-  "homepage": "https://csea-frontend-27wx-git-main-csea-nitg.vercel.app/",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
