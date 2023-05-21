@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import EventCards from '../EventCards'
 import PlacementTalk from '../../images/Notices/PlacementTalk.png'
 import EventImages from '../EventImages';
@@ -6,14 +6,22 @@ import EventImages from '../EventImages';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-import img1 from "../../images/events/1.jpg";
-import img2 from '../../images/events/2.jpg';
-import img3 from '../../images/events/3.jpg';
-import img4 from '../../images/events/4.jpg';
-import img5 from '../../images/events/5.jpg';
-import img6 from '../../images/events/6.jpg';
 
 import Sidebar from './SideBar';
+
+import firebase from "firebase/compat/app";
+import "firebase/compat/storage";
+
+const getImages = async () => {
+  const storage = firebase.storage();
+  const storageRef = storage.ref();
+  const imagesRef = storageRef.child("Events");
+  const imageUrls = await imagesRef.listAll();
+  const urlPromises = imageUrls.items.map((imageRef) =>
+    imageRef.getDownloadURL()
+  );
+  return Promise.all(urlPromises);
+};
 
 let events = [
   {
@@ -23,24 +31,20 @@ let events = [
     date: "March 09, 2023",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,praesentium voluptatem omnis atque culpa repellendus.",
-    images: [
-      { id: 1, src: img1, alt: "image1" },
-      { id: 2, src: img2, alt: "image2" },
-      { id: 3, src: img3, alt: "image3" },
-      { id: 4, src: img4, alt: "image4" },
-      { id: 5, src: img5, alt: "image5" },
-      { id: 6, src: img6, alt: "image6" }]
+    images: []
   }
 ];
 function PastEvents() {
-  const images = [
-    { id: 1, src: img1, alt: "image1" },
-    { id: 2, src: img2, alt: "image2" },
-    { id: 3, src: img3, alt: "image3" },
-    { id: 4, src: img4, alt: "image4" },
-    { id: 5, src: img5, alt: "image5" },
-    { id: 6, src: img6, alt: "image6" }
-  ]
+  useEffect(() => {
+    getImages().then((urls) => {
+      events[0].images = urls.map((url, index) => ({
+        id: index + 1,
+        src: url,
+        alt: `image${index + 1}`,
+      }));
+    });
+    console.log(events)
+  }, []);
 
   const [show, setshow] = useState(false);
   const [display, setDisplay] = useState(false);

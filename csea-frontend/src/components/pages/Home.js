@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import Footer from "../Footer";
 import Gallery from "../utilities/Gallery";
 import "../HeroSection";
@@ -12,13 +13,6 @@ import Announcements from "../Announcements/Announcements";
 import LetterCard from "../newsletter/LetterCard";
 import Herosection from "../HeroSection";
 
-//Core Members
-import Aditya from "../images/Core members/Aditya.jpg"
-import Jayendra from "../images/Core members/Jayendra.jpg"
-import Pritika from "../images/Core members/Pritika.jpg"
-import Ann from "../images/Core members/Ann.jpg"
-import Vaibhav from "../images/Core members/Vaibhav.jpg"
-
 //Notices
 import PlacementTalk from "../images/Notices/PlacementTalk.png"
 import { Link } from "react-router-dom";
@@ -28,7 +22,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen={Aditya}
+        imagen="https://firebasestorage.googleapis.com/v0/b/csea-nitg.appspot.com/o/CoreMembers%2FAditya.jpg?alt=media&token=06bac3c8-3052-4cd6-959b-fd8140d776ce"
         title="Aditya"
         content="President"
       />
@@ -38,7 +32,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen={Jayendra}
+        imagen = "https://firebasestorage.googleapis.com/v0/b/csea-nitg.appspot.com/o/CoreMembers%2FJayendra.jpg?alt=media&token=8dc352af-bfad-47cd-b645-34de2ed36ba3"
         title="Jayendra"
         content="Vice President"
       />
@@ -48,7 +42,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen={Vaibhav}
+        imagen = "https://firebasestorage.googleapis.com/v0/b/csea-nitg.appspot.com/o/CoreMembers%2FVaibhav.jpg?alt=media&token=5acdb81e-ec1c-401f-afc2-b8f3ba495d8c"
         title="Vaibhav Yadav"
         content="Dy. General Secretary"
       />
@@ -58,7 +52,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen={Ann}
+        imagen = "https://firebasestorage.googleapis.com/v0/b/csea-nitg.appspot.com/o/CoreMembers%2FAnn.jpg?alt=media&token=75df234f-bfb9-43e3-812e-a05e8591fd84"
         title="Ann Mariya Roy"
         content="General Secretary"
       />
@@ -68,7 +62,7 @@ let cards = [
     key: uuidv4(),
     content: (
       <Card
-        imagen={Pritika}
+        imagen = "https://firebasestorage.googleapis.com/v0/b/csea-nitg.appspot.com/o/CoreMembers%2FPritika.jpg?alt=media&token=a0f00e5e-65d5-44ed-a270-34c904f2459c"
         title="Pritika Barshilia"
         content="Joint Secretary"
       />
@@ -86,11 +80,10 @@ let events = {
 };
 
 function Home() {
-
   return (
     <>
       <Herosection/>
-      <div className="mt-12 ">
+      <div className="mt-12">
         <Animation />
       </div>
       <div className="h-12" id="gallery"></div>
@@ -121,7 +114,7 @@ function Home() {
       </div>
       <div id="news" className="h-[2rem]"></div>
       <div className="m-2 my-10 text-center font-bold text-7xl max-sm:text-5xl text-black">
-        Our Newsletter
+        Our Blogs
       </div>
       <div className="my-10">
         <LetterCard />

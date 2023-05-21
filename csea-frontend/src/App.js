@@ -6,6 +6,12 @@ import Newsletter from './components/newsletter/Newsletter';
 import Navbar from './components/Navbar';
 import Herosection from './components/HeroSection';
 import PastEvents from './components/event/PastEvents/PastEvents';
+import firebaseConfig from "./firebaseConfig";
+import firebase from "firebase/compat/app";
+import "firebase/compat/storage";
+
+firebase.initializeApp(firebaseConfig);
+
 function App() {
   return (
     <Router basename='/CSEA-Frontend'>  

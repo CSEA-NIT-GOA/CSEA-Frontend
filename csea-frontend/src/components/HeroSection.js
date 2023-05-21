@@ -17,7 +17,7 @@ export default function Herosection() {
                 <p className="my-6 mt-6 text-3xl lg:ml-20 leading-8 text-gray-300 sm:text-center">
                   Computer Science and Engineering Association
                 </p>
-                <p className="my-0 text-md leading-8 lg:ml-20  text-gray-300 sm:text-center">
+                <p className="my-0 text-xl leading-8 lg:ml-20  text-gray-300 sm:text-center">
                   National Institute of Technology, Goa
                 </p>
               </div>

@@ -20,7 +20,7 @@ function Teams(props) {
     setShowArrows(props.showArrows);
   }, [props.offset, props.showArrows]);
   return (
-    <div className="justify-center text-center">
+    <div className="justify-center text-center" id ="team">
       <div
         // style={{ width: props.width, height: props.height, margin: props.margin }}
         className="flex justify-evenly max-[850px]:flex-col px-8"

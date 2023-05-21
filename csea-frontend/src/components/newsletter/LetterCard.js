@@ -4,7 +4,7 @@ function LetterCard() {
   return (
     <div className='p-6 flex justify-center items-center max-md:flex-col'>
         <article
-          class="flex bg-white transition hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-800/25"
+          class="flex w-full bg-white transition hover:shadow-xl dark:bg-gray-800 dark:shadow-gray-800/25"
         >
           {/* Uncomment below div for time */}
 
@@ -40,7 +40,7 @@ function LetterCard() {
               </a> */}
 
               <p
-                class="mt-2 text-sm leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200 text-7xl"
+                class="mt-2 text-7xl max-md:text-xl leading-relaxed text-gray-700 line-clamp-3 dark:text-gray-200"
               >
                 COMING SOON.............
               </p>
